@@ -10,12 +10,10 @@ h2 {
 	
 }
 
-h2 p a {
-    text-align: center;
-}
 
 a {
     text-decoration: none;
+    text-align: center;
 
 }
 
