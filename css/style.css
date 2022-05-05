@@ -10,6 +10,15 @@ h2 {
 	
 }
 
+h2 p a {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
 header {
 	border-radius: 0.5rem;
     background-color: #1e0366;
