@@ -1,0 +1,53 @@
+body {
+    font-family: 'BIZ UDPMincho', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+}
+header {
+    background-color: #39D7FE;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+}
+section {
+    width: 70%;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-items: center;;
+    margin: 1rem;
+    background-color: rgb(245, 245, 245);
+    padding: 0 1rem;
+}
+h3 {
+    background-color: rgb(41, 112, 179);
+    margin: 0;
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+img {
+    width: 80%;
+    height: auto;
+    border: 1px solid #aaa;
+}
+p {
+    padding: 1rem;
+    width: 80%;
+}
+footer {
+    background-color: #39D7FE;
+    border-radius: 1rem;
+}
