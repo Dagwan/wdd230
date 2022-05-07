@@ -59,7 +59,7 @@ div section ul {
 }
 
 img {
-    width: 96%;
+    width: 100%;
     height: auto;
     margin: 1rem auto;
 
@@ -91,6 +91,8 @@ nav ul {
     list-style-type: none;
 	overflow: hidden;
     padding: 0;
+    text-align: center;
+    text-emphasis: bold;
 
 }
 nav ul li a {
@@ -98,6 +100,12 @@ nav ul li a {
 	color: #edf6f9;
 	text-align: center;
 	padding: 0.75rem;
+}
+
+nav ul li :hover{
+    background-color: #edf6f9;
+    color: #f77f00;
+    
 }
 
 h1, h2, h3, h4 {
@@ -117,10 +125,6 @@ h3, h4 {
     background-color: #03045e;
 }
 
-.active {
-	color: white;
-    background-color: #03045e;
-}
 
 .menutext {
 	padding: 0.75rem;
