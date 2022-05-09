@@ -57,7 +57,10 @@ div section ul {
     text-align: left;
     color: black;
 }
-
+.active {
+    background-color: #03045e;
+    color: #f77f00;
+}
 img {
     width: 100%;
     height: auto;
