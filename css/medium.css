@@ -29,6 +29,7 @@
     }
     nav ul li { 
         flex: 1 1 auto; 
+        align-items: center;
     }   
 }
 h3, h4 {
