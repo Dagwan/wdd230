@@ -1,53 +1,137 @@
-body {
-    font-family: 'BIZ UDPMincho', serif;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Titillium Web', sans-serif;
-}
-header {
-    background-color: #39D7FE;
-    border-radius: 1rem;
-    margin: auto;
-    padding: 1rem;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-    justify-items: center;
-}
-section {
-    width: 70%;
-    border: 2px solid #aaa;
-    border-radius: 5px;
-    display: grid;
-    grid-auto-rows: max-content;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
-    justify-items: center;;
-    margin: 1rem;
-    background-color: rgb(245, 245, 245);
-    padding: 0 1rem;
-}
-h3 {
-    background-color: rgb(41, 112, 179);
+* {
+    box-sizing: border-box;
     margin: 0;
-    border-radius: 3px 3px 0px 0px;
-    width: 100%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+header, nav, main, footer {
+    margin: .40rem auto;
+    max-width: 78.5%;
+  }      
+
+header, footer {
+    background-color: #03045e;
     text-align: center;
-    color: #fff;
+    color: #edf6f9;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+section p {
     padding: 1rem;
 }
+
+.columns {
+    display: grid;
+    grid-gap: 10px;
+}
+
+div section {
+    background-color: #03045e;
+}
+
+div section img {
+    border: 1px solid;
+    display: flex;
+    justify-self: center;
+}
+
+div section p {
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+
+div section ul {
+    padding: 1.5rem;
+    color: #ffffff;
+}
+
+.color, .font, .audience, .index {
+    background-color: #edf6f9;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+}
+.active {
+    background-color: #03045e;
+    color: white;
+}
+
 img {
-    width: 80%;
+    width: 100%;
     height: auto;
-    border: 1px solid #aaa;
+    margin: 1rem auto;
+
 }
-p {
-    padding: 1rem;
-    width: 80%;
+
+.colorpic  {
+    display: flex;
 }
-footer {
-    background-color: #39D7FE;
-    border-radius: 1rem;
+
+.bannerpic  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav {
+	background-color: #f77f00;
+	max-width: 78.5%;
+}
+
+
+nav ul {
+    list-style-type: none;
+	overflow: hidden;
+    padding: 0;
+    text-align: center;
+    text-emphasis: bold;
+
+}
+nav ul li a {
+	display: inline-block;
+	color: #edf6f9;
+	text-align: center;
+	padding: 0.75rem;
+}
+
+nav ul li :hover{
+    background-color: #edf6f9;
+    color: #f77f00;
+    
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h3, h4 {
+	display: block;
+	padding: 5px;
+	background-color: #f77f00;
+	color: #FFFFFF;
+}
+
+.headertext {
+    color:#edf6f9;
+    background-color: #03045e;
+}
+
+
+.menutext {
+	padding: 0.75rem;
+    color: #ffffff;
+    background-color: #03045e;
 }
