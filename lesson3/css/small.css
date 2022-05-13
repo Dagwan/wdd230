@@ -73,11 +73,6 @@ img {
     display: flex;
 }
 
-.bannerpic  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-}
 
 a {
     text-decoration: none;
