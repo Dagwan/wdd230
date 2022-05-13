@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #c5a5f1;
+    --secondary-color: rgb(241, 52, 52);
+    --accent-color: #1846d1;
+
+    --heading-font: ;font-family: "Work Sans", sans-serif;
+    --paragraph-font: font-family: "Work Sans", sans-serif;
+    
+}
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    padding: 1.2em;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+.self img{
+    width: auto;
+    height: 100px;
+    grid-column-start: 1;
+    float: left;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+h1 h2{
+    font-family: var(--heading-font);
+    font-size: 35px;
+    color: var(--secondary-color);
+}
+
+footer{
+    padding: 1.1em;
+    text-align: center;
+    background-color: var(--primary-color);   
+}
+
+main{
+    text-align: left;
+    margin-left: 100px;
+}
+
+li{
+    margin: 7px;
+}
+
+.modified{
+    color: var(--accent-color);
+}
