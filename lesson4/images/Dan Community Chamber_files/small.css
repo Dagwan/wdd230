@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 18px;
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 header, nav, main, footer {
@@ -15,8 +15,8 @@ header, nav, main, footer {
 }  
 
 .navigation a, .responsive, a:link, a:visited {
-    color: white;
-    text-decoration: underline;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
 }
 
 .headings span {
-    font-size: 1.20rem;
+    font-size: 1.25rem;
 }
 
 .headings h1 {
@@ -60,7 +60,6 @@ a img {
     height: auto;
 }
 
-
 .social {
     grid-column: 4;
 }
@@ -80,7 +79,7 @@ nav {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: .70rem;
+    gap: .75rem;
     padding: 1rem;
 }
 
@@ -89,8 +88,7 @@ main>section {
 }
 
 #event p a {
-    text-decoration: none;
-    color: #03045e;
+    text-decoration: underline;
     text-align: center;
 }
 
@@ -122,23 +120,21 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: #FAC000;
-    color: white;
-    font-weight: 600;
+    color: #FAC000;
+    font-weight: 700;
 }
 
-
-.date {
-    background-color: #f77f00;
+.responsive, .date, main>section, #spotlight>div {
+    border: 1px solid #3ACF3A;
 }
 
-main section {
-    background-color:#03045e;
-    color: white;
+.date, main section {
+    background-color: #0D350D;
 }
+
 .responsive {
     position: relative;
-    background-color: #03045e;
+    background-color: #000000;
 }
 
 .responsive li {
@@ -174,12 +170,12 @@ main section {
 
 
 #join {
-    display: none;
+    display:none;
 }
 
 #joinbutton {
     position: relative;
-	background: #f77f00;
+	background: #03045e;
     border-radius: 10px;
 	padding: 1rem;
 }
@@ -198,7 +194,7 @@ main section {
 }
 
 .temperaturetext {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #spotlight {
@@ -242,7 +238,6 @@ footer>img {
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
     font-size: 25;
-    color: white;
 }
 
 h3 {
