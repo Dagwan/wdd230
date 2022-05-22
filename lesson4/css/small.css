@@ -122,7 +122,7 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: #FAC000;
+    background-color: #f77f00;
     color: white;
     font-weight: 600;
 }
@@ -198,7 +198,7 @@ main section {
 }
 
 .temperaturetext {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #spotlight {
