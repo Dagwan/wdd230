@@ -1,225 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dan Community Chamber</title>
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <meta name="description" content="Index page for Dan Community Chamber." />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/small.css" />
-    <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css" />
-    <link rel="shortcut icon" href="images/favicon.ico">
-    
-    <script src="js/script.js" defer></script>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Community Chamber</title>
+    <meta name="description" content="Dan Chamber of Commerce."/>
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
-  </head>
-  <body>
-    <header>
-      <picture>
-        <img
-          src="images/logo.jpg"
-          alt="chamber logo"
-          width="100"
-          height="100"
-        />
-      </picture>
-      <section class="headings">
-        <h1>Dan Community</h1>
-        <h1>CHAMBER</h1>
-      </section>
-      <div class="social">
-        <a href="https://linkedin.com"
-          ><img src="images/linkIn.png" alt="Linkedin" width="40" height="40"
-        /></a>
-        <a href="https://instagram.com"
-          ><img
-            src="images/instagram.png"
-            alt="instagram"
-            width="40"
-            height="40"
-        /></a>
-        <a href="https://facebook.com"
-          ><img src="images/facebook.png" alt="Facebook" width="40" height="40"
-        /></a>
-      </div>
-      <nav>
-        <ul class="navigation">
-          <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <h2 class="date">Today's</h2>
-    </header>
 
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/normalize.css"/>
+</head>
+
+<body>
+    <header>
+        <picture id="logo1">
+            <img src="images/logo.jpg" alt="Dan chamber logo">
+        </picture>
+
+        <h1>Dan Community <span id="cc"><br><h1>Chamber</h1></span></h1>
+
+        <div class="social">
+            <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Logo"
+                    width="40" height="40"></a>
+            <a href="https://instagram.com" target="blank"><img src="images/instagram.png" alt="Instagrams logo"
+                    width="40" height="40"></a>
+            <a href="https://linkedin.com" target="blank"><img src="images/linkIn.png" alt="Linkedin logo"
+                    width="40" height="40"></a>
+        </div>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span>
+                <span>X</span></button>
+            <ul id="primaryNav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <p>
+            <span id="currentDate"></span>
+        </p>
+    </header>
+    <aside id="banner">
+        <h2>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2> &nbsp;<button id="close">X</button>
+    </aside>
+
+    
     <main>
-      <section id="hero">
-        <h1>Dan Community Chamber</h1>
-        <span id="herojoin"
-          ><a href="https://alltownfresh.com/join/"
-            >Join Dan Chamber Today!</a
-          ></span
-        >
-      </section>
-      <section id="event">
-        <h3>Dan Community Chamber's Restaurant</h3>
-        <p>
-          Visit us every day for your wonderful taste meal that we prepared just
-          for you at our shop located 540, Brick City-FCT-Abuja, Pox 1956-Garki,
-          Abuja-Nigeria
-          <a href="https://alltownfresh.com"
-            >check us out for more information</a
-          >
-        </p>
-      </section>
-      <section id="weather">
-        <h3>Summarry of the Weather</h3>
-        <div id="weatherboxes">
-          <picture>
-            <img
-              class="weatherimg"
-              src="images/weather.jfif"
-              alt="Weather Report"
-              width="140"
-              height="110"
-            />
-          </picture>
-          <span class="temperaturetext">35° C</span>
-          <div class="weathertext twocol">
-            <span>Partly Cloudy and rainy</span>
-            <br />
-          </div>
-          <p>Wind:</p>
-          <p>3.4 km/h</p>
-          <p>Wind Chill:</p>
-          <p>N/A</p>
-        </div>
-      </section>
-      <section id="news">
-        <h3>Fresh News Release</h3>
-        <p>
-          We are dedicated to bringing our guests a tast of coffee that would
-          some experience in a convenient and affordable on-the-go. Our coffee
-          is always in small batches to deliver the most fresh cup of coffee
-          possible.
-        </p>
-      </section>
-      <section id="join">
-        <h3 id="joinbutton">
-          <a href="https://alltownfresh.com/about/join">Join us!</a>
-        </h3>
-        <p>
-          Discover how to join the Dan chamber of commerce and how it will
-          benefit your organization with some fresh coffee arrange just for you!
-        </p>
-      </section>
-      <section id="spotlight">
-        <div>
-          <h3>Dan Chamber Deliverable</h3>
-          <img
-            src="images/spotimg.jpg"
-            alt="Pork Belly"
-            width="350"
-            height="300"
-          />
-          <p>
-            <a
-              href="https://alltownfresh.com/wp-content/uploads/temp/about-side2.jpg"
-            ></a
-            >Fresh and chamming specialty spices put in places by Dan Chamber of
-            Commerce so you would have the great experience
-          </p>
-          <br />
-          <p>Tel: +234 (0) 810-175-6091-00</p>
-          <a href="dancommunity@gmail.com --|--- dan21017@byui.edu"
-            >dancommunity@gmail.com --|--- dan21017@byui.edu</a
-          >
-        </div>
-        <div>
-          <h3>Cool and Freshy</h3>
-          <img
-            src="images/fresh.jpg"
-            alt="fresh food"
-            width="350"
-            height="300"
-          />
-          <p class="spotlightlink">
-            <a href="https://alltownfresh.com"></a>Dan Chamber of Commerce is
-            reknown for it purposeful activities that is always bringing the
-            best food to it clients
-          </p>
-          <br />
-          <p>Tel: +234 (0) 810-175-6091-00</p>
-          <a href="dancommunity@gmail.com --|--- dan21017@byui.edu"
-            >dancommunity@gmail.com --|--- dan21017@byui.edu</a
-          >
-        </div>
-        <div>
-          <p>
-            Coffee is seen intersting by our customer who loves it because of it
-            coolness
-          </p>
-          <img
-            src="images/coffee.jpg"
-            alt="coffee cup"
-            width="350"
-            height="300"
-          />
-          <p class="spotlightlink">
-            <a href="https://alltownfresh.com"></a>We are call one of the best
-            kitchen producing fresh food
-          </p>
-          <br />
-          <p>Tel: +234 (0) 810-175-6091-00</p>
-          <a href="dancommunity@gmail.com --|--- dan21017@byui.edu"
-            >dancommunity@gmail.com --|--- dan21017@byui.edu</a
-          >
-        </div>
-      </section>
+        <section class="containers">
+            <div class="box1">
+                <picture>
+                    <source srcset="images/hero2.webp" media="(min-width: 640px) and (max-width: 959px)">
+                    <source srcset="images/hero3.webp" media="(min-width: 960px)">
+                    <img src="images/hero1.webp" alt="Hero Image">
+                </picture>
+                
+                <h2 class="welcome">You are Welcome to Dan Community Chamber</h2>
+                <div class="joinbtn">
+                    <a href="https://alltownfresh.com/benefits/" target="blank">Join the Chamber Today!</a>
+                </div>
+            </div>
+            <div class="box2">       
+                <h2 class="event">Dan Events</h2>                               
+                <p>Visit us every day for your wonderful taste meal that we prepared just
+                    for you at our shop located 540, Brick City-FCT-Abuja, Pox 1956-Garki,
+                    Abuja-Nigeria <a href="https://alltownfresh.com" target="blank"
+                    >check us out for more information</a
+                  ></p>
+            </div>
+            <div class="box3">
+                <picture>
+                    <source srcset="images/weather.jfif" media="(min-width: 600px)">
+                    <img src="images/weather.jfif" alt="Weather report">
+                </picture>
+                
+                <h2 class="weather">Weather Sumary</h2>
+                <div class="temp-box">
+                    <p><span class="current-temp">47</span>&deg;F</p>
+                    <p>Wind Speed: <span class="wind-speed">7</span> mph</p>
+                    <p>Wind Chill: <span class="windchill"></span></p>
+                </div>
+            </div>
+            <div class="box4">
+               
+                <h2 class="news">Fresh News Release</h2>
+                <picture>
+                    <source srcset="images/new.jpg" media="(min-width: 640px) and (max-width: 960px)">
+                    <source srcset="images/new.jpg" media="(min-width: 960px)">
+                    <img src="images/new.jpg" alt="Dinner Cruise Boat">
+                </picture>
+                <p>
+                    We are dedicated to bringing our guests a tast of coffee that would
+                    some experience in a convenient and affordable on-the-go. Our coffee
+                    is always in small batches to deliver the most fresh cup of coffee
+                    possible.
+                  </p>
+            </div>
+            <div class="box5">
+                
+                <h2 class="join">Join Us Today!</h2>
+                <p>
+                    Discover how to join the Dan chamber of commerce and how it will
+                    benefit your organization with some fresh coffee arrange just for you!
+                  </p>
+                <div class="joinbtn2">
+                    <a href="https://alltownfresh.com/about/join" target="blank">For more information</a>
+                </div>
+            </div>
+            <div class="box6">
+                <div class="split1">
+                    
+                    <picture>
+                        <source srcset="images/fresh.jpg" media="(min-width: 640px) and (max-width: 960px)">
+                        <source srcset="images/spotimg.jpg" media="(min-width: 960px)">
+                        <img src="images/fresh.jpg" alt="Dinner Cruise Boat">
+                    </picture>
+                    <h2 class="boat">Dan Chamber Deliverable</h2>
+                    <p>Fresh and chamming specialty spices put in places by Dan Chamber of
+                        Commerce so you would have the great experience
+                    </p> 
+                    <p>           
+                    Tel: +234 (0) 810-175-6091-00 <br> dancommunity@gmail.com
+                    </p>
+                </div>
+                <div class="split2">
+                    <h2 class="bed">Cool and Freshy</h2>
+                    <picture>
+                        <source srcset="images/main.jpg" media="(min-width: 640px) and (max-width: 960px)">
+                        <source srcset="images/main.jpg" media="(min-width: 960px)">
+                        <img src="images/main.jpg" alt="Show picture">
+                    </picture>
+                   
+                    <p>Dan Chamber of Commerce is
+                        reknown for it purposeful activities that is always bringing the
+                        best food to it clients
+                </p>            
+                <p>Tel: +234 (0) 810-175-6091-00 <br> dancommunity@gmail.com
+                </p>
+                </div>
+                <div class="split3">
+                    <h2 class="cafe">Coffee</h2>
+                    <picture>
+                        <source srcset="images/coffee.jpg" media="(min-width: 640px) and (max-width: 960px)">
+                        <source srcset="images/coffee.jpg" media="(min-width: 960px)">
+                        <img src="images/coffee.jpg" alt="Show picture">
+                    </picture>
+                    <p>
+                        Coffee is seen intersting by our customer who loves it because of it
+                        coolness
+                      </p>
+                Tel: +234 (0) 810-175-6091-00 <br> dancommunity@gmail.com
+                </div>
+            </div>
+        </section>
     </main>
 
+   
     <footer>
-      <img src="images/logo.jpg" alt="chamber logo" width="100" height="100" />
-      <div class="footeraddress">
-        <h1>Dan Community<br />CHAMBER</h1>
-        <h1></h1>
-
-        <p>540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria</p>
-      </div>
-      <div class="footercontact">
-        <a href="dancommunity@gmail.com"
-          >dancommunity@gmail.com --|--- dan21017@byui.edu</a
-        >
-        <p>Tel: +234 (0) 810-175-6091-00</p>
-
-        <a href="https://maps.google.com"
-          ><img
-            src="images/map.png"
-            alt="Google Map"
-            width="40"
-            height="40"
-          /><span>Google Map</span></a
-        >
-      </div>
-      <div id="footercopyright">
-        <p id="footertext"></p>
-      </div>
+        <section class="foot1">
+            <div>
+                <picture id="logo2">
+                    <img src="images/logo.jpg" alt="Mount Saratoga Logo">
+                </picture>
+            </div>
+            <div class="address">
+                <h3><b>Dan Community Chamber</b></h3>
+                <p>
+                    <p>540, Brick City-FCT-Abuja, <br>
+                        Pox 1956-Garki, Abuja-Nigeria</p>
+            
+            </div>
+            <div class="urlsite">
+                <p>
+                    Tel: +234 (0) 810-175-6091-00 <br> dancommunity@gmail.com <br>
+                    dan21017@byui.edu
+                </p>
+                <a href="https://www.google.com/maps/" target="blank">
+                    <i class="material-icons">&#xe567;</i>Location Map</a>
+            </div>
+        </section>
+        <p id="lastline">
+            &copy;<span id="currentYear"></span> Dan Community Chamber | Last Modified: <span id="updatedDate"></span>
+        </p>
     </footer>
-  </body>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
 </html>

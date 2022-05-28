@@ -1,13 +1,35 @@
+/* Get Current Date for Header */
+const currentDateSpan = document.querySelector("#currentDate");
+
+const now = new Date();
+currentDateSpan.textContent = new Intl.DateTimeFormat("en-GB", {
+  dateStyle: "full",
+}).format(now);
+
 function toggleMenu() {
-    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+    document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+  }
+  
+  const x = document.getElementById('hamburgerBtn')
+  x.onclick = toggleMenu;
+
+/* Date for the footer*/
+let newDate = new Date();
+
+document.getElementById("currentYear").textContent = newDate.getFullYear();
+
+let lastUpdated = document.lastModified;
+
+document.getElementById("updatedDate").textContent = lastUpdated;
+
+/* Banner on Mondays & Tuesdays */
+if(now.getDay() === 2 || now.getDay() === 1) {
+  document.getElementById("banner").style.display = "block";
 }
 
-const datefield = document.querySelector(".date");
-const now = new Date();
-const currentdate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
+const close = document.querySelector("#close");
 
-datefield.innerHTML = `${currentdate}`;
-
-const options = {year: "numeric"}
-const currentyear = now.toLocaleDateString("en-US", options);
-document.querySelector("#footertext").innerHTML = `&copy;${currentyear} Dan Community Chamber | Last modification: ${document.lastModified}`;
+close.addEventListener("click", () => {
+  banner.style.display = "none";
+});
