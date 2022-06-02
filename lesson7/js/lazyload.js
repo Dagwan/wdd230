@@ -9,12 +9,12 @@ const imgOptions = {
 
 // Moves the path from data-src to src and removes data-src since it isn't needed
 const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {image.removeAttribute("data-src");};
 };
 
 // check to see if Intersection Observer is supported or not
-if('IntersectionObserver' in window) {
+if("IntersectionObserver" in window) {
     // Creates an images Observer
     const imgObserver = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
