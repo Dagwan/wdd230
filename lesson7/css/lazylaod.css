@@ -1,0 +1,24 @@
+main{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	gap: 1em;
+}
+
+h1{	
+	text-align: center;
+	margin: 2em auto;
+	font-family: 'Loto', sans-serif;	
+}
+
+img[data-src] {
+	filter: blur(0.5em);
+}
+
+img{
+	filter: blur(0);
+	transition: filter 2s;
+	width: 300px;
+	height: 400px;
+	border: 1px solid rgb(207, 11, 11);
+}
