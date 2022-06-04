@@ -214,7 +214,7 @@ main {
 
 .event {
     position: absolute;
-    top: 20;   
+    top: 20px;   
     padding: 5px 15px 5px 30px;
     background-color: #03045e;
 }
@@ -429,6 +429,158 @@ footer #lastline {
     font-size: 1.5rem;
     margin: auto;
     padding: 10px;
-	text-shadow: 0 3px 3px black;
+	text-shadow: 0 10px 10px rgb(0, 0, 0);
     
 }
+
+/*........................................DISCOVER................................*/
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px
+}
+
+.discover div {
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+
+.discover-title {
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+}
+
+.stats {
+    padding: 10px;
+    color: white;
+    background-color: #03045e;
+    box-shadow: 3px 3px 10px rgb(145, 83, 3);
+}
+
+.discover-title p {
+    padding: 20px 20px 10px 20px;
+}
+
+.discover p {
+    padding: 10px;
+  
+}
+
+.discover1 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00;
+}
+
+.discover2 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;    
+}
+
+
+.discover3 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00; 
+}
+
+
+.discover4 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;    
+}
+
+
+.discover5 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00;   
+}
+
+
+.discover6 h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;
+}
+
+
+.discover7>h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;
+}
+
+.h1 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00;
+}
+
+.h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;
+}
+
+.h3 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00;
+}
+
+.h4 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;
+}
+
+.h5 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #f77f00;
+}
+
+.h6 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    color: #03045e;
+    background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
+}
+
+
+.discover7 .border {
+    margin-bottom: 10px;
+}
+
+.discover7 .bottom {
+    margin: 0px;
+}
+
+.discover7 img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.pics {
+    height: 400px;
+    width: 450px;
+    transition: filter 0.5s;
+}
+
+.discover7 p {
+    padding: 10px;
+}
+
+
+.discover7 .photo-gal {
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+}
+
