@@ -1,0 +1,96 @@
+
+  * {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 4rem;
+    background-color: #03045e;
+    color: white;
+    width: 380px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  body {
+  background-color: aliceblue;
+  }
+
+
+  tfoot tr td {
+    font-size: .7em;
+    padding: 5px;
+    background-color: #a8e98e;
+  }
+
+  th {
+    font-family: Ubuntu, sans-serif;
+    background-color: #03045e;
+    color: black;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: solid 1.5px #cdcdcd;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid #bebebe;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+  }
+
+  caption, th {
+    color: white;
+  }
+  caption {
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #f77f00;
+    color: white;
+    padding: 10px;
+  }
+  
+  td {
+    border: 1px solid #bebebe;
+    text-align: center;
+    padding: 10px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 1.3rem;
+}
+
+  tr:nth-child(even) {
+    background-color: #fff7df;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #a8ce76;;
+  }
+
+  tr:nth-child(4) td:nth-child(3) {
+    background-color: #fff7df;
+    color: black;
+  }  
+
+  tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+  }
+
+  tfoot tr td {
+    font-size: .7em;
+    padding: 5px;
+    background-color: #6aacac;
+  }
+
+  .colspan {
+    background-color: #03045e;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    padding: 10px 5px 10px 5px;
+  
+  }
+  
