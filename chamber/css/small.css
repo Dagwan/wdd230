@@ -9,6 +9,7 @@
 body {
     align-content: center;
     max-width: 100%;
+    height: auto;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     margin: 0 auto;
@@ -51,7 +52,7 @@ header p {
 
 h1 {
     font-size: 24px;
-    line-height: .6;
+    line-height: 1;
     padding: 5px;
     font-family: 'Loto', sans-serif;
     text-shadow: 0 3px 3px #32292F;
@@ -585,3 +586,204 @@ footer #lastline {
     text-align: center;
 }
 
+
+/***********************JOIN PAGE**********************/
+
+.dan {
+    font-family: 'Loto', sans-serif;
+    text-shadow: 0 3px 3px #32292F;
+    color: white;
+    background-color: #03045e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.member1 {
+    color: #f77f00;
+}
+
+.member2 {
+    color: #03045e;
+}
+
+.member3 {
+    color: #f77f00;
+}
+
+.member4 {
+    color: #03045e;
+}
+
+.member5 {
+    color: #f77f00;
+}
+
+.class1 {
+    color: #03045e;
+}
+
+.class2 {
+    color: #f77f00;
+}
+
+.class3 {
+    color: #03045e;
+}
+
+form fieldset {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: aliceblue;
+    
+}
+
+form legend {
+    margin-bottom: auto;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    
+    
+}
+
+form label.top, form div {
+    display: block;
+    font-size: .8rem;
+    margin: 20px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius:  4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 45rem;
+    background-color: #f8f7ff;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    
+}
+
+form input.submitBtn {
+    border: 1px solid #f77f00;
+    background-color: #03045e;
+    color: white;
+    border-radius: 1rem;
+    padding: 10px 40px;
+    margin: 10px;
+    width: 96%;
+    max-width: 45rem;
+    font-size: 100%;
+    box-shadow: 3px 3px 10px rgb(23, 3, 134);
+    cursor: pointer;
+}
+
+
+form label.top input:required {
+    border-left: rgb(201, 93, 93) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(6, 167, 68) solid 6px;
+}
+
+form section {
+    padding: 10px;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 45rem;
+    height: 10rem;
+    max-width: 45rem;
+    background-color: #f2f2f2;
+    border: 1px solid #03045e;
+}
+
+#jointitle {
+    padding: 10px;
+    margin: 20px 20px 0px 20px;    
+    text-align: center;
+}
+
+#memberlevels {
+    display: grid;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+
+.memberinfo {
+    margin: 0px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+       
+}
+
+
+ .memberinfo h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -37px;
+    font-size: 30px;
+ }
+
+ .memberinfo li {
+     padding: 3px 10px 3px 0px;
+ }
+
+ .infobox {
+    padding: 10px 10px 10px 25px;
+    
+    
+ }
+
+ .infobox h3 {
+     padding: 0px 0px 10px 0px;
+     font-size: 16px;
+    
+ }
+
+#leveltitle h2 {
+     text-align: center;
+     padding: 10px;
+     margin: 10px 10px 20px 10px;
+    
+ }
+
+
+/******************THANK YOU PAGE**********************/
+.thankyou {
+    
+    padding: 10px;
+    margin: 75px;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 1.9rem;
+    box-shadow: 3px 3px 10px rgb(32, 3, 136);
+}
+
+.thankyou2 {
+    
+    padding: 10px;  
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.thankyou2 h3 {
+    padding: 10px;
+    color: #f77f00;
+    font-family: 'Work san', sans-serif;
+}
+
+.thankyou2 p {
+    padding: 0px 10px 20px 10px;
+}

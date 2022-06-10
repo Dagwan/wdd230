@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Dan Community Chamber</title>
+    <meta name="description" content="Dan Chamber of Commerce." />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+
+  <body>
+    <header>
+      <picture id="logo1">
+        <img src="images/logo.jpg" alt="Dan chamber logo" />
+      </picture>
+
+      <h1>
+        Dan Community <br> <br>Chamber</h1>
+
+      <div class="social">
+        <a href="https://facebook.com" target="blank"
+          ><img
+            src="images/facebook.png"
+            alt="Facebook Logo"
+            width="40"
+            height="40"
+        /></a>
+
+        <a href="https://instagram.com" target="blank"
+          ><img
+            src="images/instagram.png"
+            alt="Instagrams logo"
+            width="40"
+            height="40"
+        /></a>
+
+        <a href="https://linkedin.com" target="blank"
+          ><img
+            src="images/linkIn.png"
+            alt="Linkedin logo"
+            width="40"
+            height="40"
+        /></a>
+      </div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span> <span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a class="active" href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <p>
+        <span id="currentDate"></span>
+      </p>
+    </header>
+    <main>
+      <div id="jointitle">
+        <h1 class="dan">Dan Community Chamber's Membership Application Form</h1>
+      </div>
+      <div id="joinapp">
+        <form method="get" action="thankyou.html">
+          <div>
+            <fieldset>
+              <legend>Applicant's Information</legend>
+              <label class="top"
+                >First Name* <input type="text" name="fname" required
+              /></label>
+              <label class="top"
+                >Last Name* <input type="text" name="lname" required
+              /></label>
+              <label class="top"
+                >Email*
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  required
+              /></label>
+
+              <label class="top"
+                >Phone Number*
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="1234567890"
+                  required
+              /></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Business Type and Position</legend>
+              <label class="top"
+                >Business Name* <input type="text" name="bname" required
+              /></label>
+              <label class="top"
+                >Business Position Title <br />(Minimum of 8 characters,
+                letters, spaces and hyphens only.)<input
+                  type="text"
+                  pattern="[a-zA-Z\s\-]{7,}"
+                  name="title"
+              /></label>
+
+              <label class="top" for="content">Business Descriptions</label>
+              <textarea name="textarea" id="content"></textarea>
+              <input type="hidden" id="date" name="date" value="CurrentTime" />
+              <input type="hidden" id="time" name="time" value="CurrentDate" />
+            </fieldset>
+
+            <fieldset>
+              <legend>Membership Levels</legend>
+              <label class="sbs"
+                ><input type="radio" name="NP Membership" /> NP Member
+                (Non-Profit)</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="Bronze Membership" /> Bronze
+                Member</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="Silver Membership" /> Silver
+                Member</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="Gold Membership" /> Gold
+                Member</label
+              >
+            </fieldset>
+
+            <input
+              type="submit"
+              value="Join the Chamber"
+              name="button"
+              class="submitBtn"
+            />
+          </div>
+        </form>
+
+        <section id="memberlevels">
+          <div id="memberlevels2">
+            <div id="leveltitle">
+              <h2 class="member1">Membership Benefits</h2>
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <div>
+                  <h2 class="member2">NP Member</h2>
+                  <ul>
+                    <li>
+                      NP Membership is for non profit organizations and there is
+                      no fee attached.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2 class="member3">Bronze Membership</h2>
+                <h3 class="class1">$480 (Annual Investment)</h3>
+                <ul>
+                  <li>Free postings on the Chamber Job Zone or blog.</li>
+                  <li>
+                    Join leads the business and development groups as well as
+                    other Chamber councils and committees.
+                  </li>
+                  <li>
+                    Weekly updates where we share vital information about new
+                    chamber programs, initiatives, festivals, networking events
+                    and advocacy efforts.
+                  </li>
+                  <li>Access to free and confidential business counseling.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2 class="member4">Silver Membership</h2>
+                <h3 class="class2">$980 (Annual Investment)</h3>
+                <ul>
+                  <li>
+                    To include all benefits of Business Builders amongst others.
+                  </li>
+                  <li>
+                    You get a second location or a second business membership
+                    ticket.
+                  </li>
+                  <li>
+                    Mini Campaign: WE will create a social media campaign for
+                    your business or organization. Pictures & copy will promote
+                    your business or brand, your products or service to the
+                    community via 4 unique social media posts over 2 weeks.
+                  </li>
+                  <li>
+                    Premier Ribbon Cutting: Photos, video, social media & email
+                    promotion to 5,000 member contacts.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2 class="member5">Gold Membership</h2>
+                <h3 class="class3">$2,500 (Annual Investment)</h3>
+                <ul>
+                  <li>
+                    Includes all the benifits of our Bronze and Silver members
+                    and more...
+                  </li>
+                  <li>
+                    For more information about our Gold Membership please
+                    contact Mr. Dagwan at dan21017@byui.edu
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <section class="foot1">
+        <div>
+          <picture id="logo2">
+            <img src="images/logo.jpg" alt="Mount Saratoga Logo" />
+          </picture>
+        </div>
+        <div class="address">
+          <h3><b>Dan Community Chamber</b></h3>
+          <p></p>
+          <p>
+            540, Brick City-FCT-Abuja, <br />
+            Pox 1956-Garki, Abuja-Nigeria
+          </p>
+        </div>
+        <div class="urlsite">
+          <p>
+            Tel: +234 (0) 810-175-6091-00 <br />
+            dancommunity@gmail.com <br />
+            dan21017@byui.edu    |   www.danchamber.com
+          </p>
+          <a href="https://www.google.com/maps/" target="blank">
+            <i class="material-icons">&#xe567;</i>Location Map</a
+          >
+        </div>
+      </section>
+      <p id="lastline">
+        &copy;<span id="currentYear"></span> Dan Community Chamber | Last
+        Modified: <span id="updatedDate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/join.js"></script>
+
+  </body>
+</html>

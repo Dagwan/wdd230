@@ -18,22 +18,12 @@
     }
     
     p {
-        font-size: 18px;
-        font-family: 'Work Sans', sans-serif;
-    }
-    
-    #cc {
         font-size: 16px;
         font-family: 'Work Sans', sans-serif;
     }
     
-    /*** TABLET LAYOUT ***/
     
-    /*.containers {
-       grid-template-rows: repeat(3, 350px);
-       grid-template-columns: 60% 37%;
-       
-    }*/
+    /*** TABLET LAYOUT ***/
     
     .box1 {
         grid-column: 1/3;
@@ -223,6 +213,26 @@
 }
 
 .discover7 .pics:hover {
-    box-shadow: 0 0 50px #333;
+    box-shadow: 0 0 30px #03045e;
 }
+
+
+
+
+/***********************JOIN PAGE**********************/
+
+
+#joinapp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    grid-column: 1/2;
+}
+
+#memberlevels {
+    grid-column: 2/3;
+}
+
         
