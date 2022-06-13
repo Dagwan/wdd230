@@ -4,12 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     align-content: center;
+    
 }
 
 body {
     align-content: center;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     margin: 0 auto;
@@ -146,7 +147,10 @@ main {
 #banner {
     display: none;
     text-align: center;
-    background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
+    color: #03045e;
+    border: 4px outset #f77f00;
+    border-style: solid;
+    border-width: 5px 20px;
     padding: 10px;
     font-size: 1rem;
     font-family: 'Works Sans', sans-serif;
