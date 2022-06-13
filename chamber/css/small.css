@@ -284,7 +284,7 @@ main {
     top: 20px;
     left: 0px;
     padding: 5px 15px 5px 30px;
-    background-color: #f77f00;
+    background-color: #03045e;
 } 
 
 
@@ -311,6 +311,12 @@ main {
     color: #03045e;
     text-decoration: none;
 }
+
+.box5 p{
+    background-color: #e5f0f0;
+    padding-top: 50px;
+}
+
 
 .boat {
     position: absolute;
@@ -347,7 +353,7 @@ main {
     padding: 5px 0px;
 }
 
-.cafe {
+.coffee {
     position: absolute;
     top: 20px;
     left: 0px;
@@ -359,11 +365,6 @@ main {
 }
 .split3 p {    
     padding: 5px 0px;
-}
-
-
-.box5 {
-    display: none;
 }
 
 .box1, .box2, .box3, .box4, .box6 {
@@ -414,12 +415,12 @@ footer a {
 
 #logo1 {
     margin-left: 30px;
-    border: 1px solid #32292f;
+    border: 6px solid #f77f00;
 }
+
 #logo2 {
-    margin-left: 40px;
-    border: 1px solid #32292f;
-    
+    margin-left: 30px;
+    border: 6px solid #f77f00;
 }
 
 footer .urlsite {
