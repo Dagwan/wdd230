@@ -1,0 +1,76 @@
+{
+    "directory": [
+    {
+        "logo": "burgerking.webp",
+        "companyName": "Burker King",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.burgerking.com",
+        "membership": "Silver Member"
+    },
+    {
+        "logo": "pizzahut.webp",
+        "companyName": "Pizza Hut",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.pizzahut.com",
+        "membership": "Bronze Member"
+    },
+    {
+        "logo": "dunkindonuts.webp",
+        "companyName": "Dunkin Donuts",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.dunkindonuts.com",
+        "membership": "Silver Member"
+    },
+    {
+        "logo": "krispykreme.webp",
+        "companyName": "Krispy Kreme Doughnuts",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.krsipikreme.com",
+        "membership": "Gold Member"
+    },
+    {
+        "logo": "goddaddy.webp",
+        "companyName": "God Dadday",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.goddadyy.com",
+        "membership": "Bronze Member"
+    },
+    {
+        "logo": "thenameguy.webp",
+        "companyName": "The Name Guy",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.thenameguy.com/",
+        "membership": "Bronze Member"
+    },
+    {
+        "logo": "tastride.webp",
+        "companyName": "Taste Ride",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.tasteride.com",
+        "membership": "Gold Member"
+    },
+    {
+        "logo": "greenfood.webp",
+        "companyName": "Green Food",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.greenfood.com",
+        "membership": "Silver Member"
+    },
+    {
+        "logo": "organicgarden.webp",
+        "companyName": "Organics Garden",
+        "address": "540, Brick City-FCT-Abuja, Pox 1956-Garki, Abuja-Nigeria",
+        "phoneNumber": "+234 (0) 810-175-6091-00",
+        "website": "https://www.organicsgarden.com",
+        "membership": "Silver Member"
+    }
+]
+}

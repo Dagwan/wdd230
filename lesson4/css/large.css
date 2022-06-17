@@ -4,6 +4,7 @@
         grid-template-columns: 155px 1fr 1fr 90px;
     }
     
+    
     header div {
         grid-column: 4/5;
         grid-row: 1/2;
@@ -88,12 +89,37 @@
       }
     
 
-    }
+    
 
 
 /***********************JOIN PAGE**********************/
 
 
-form label.sbs {
-    padding: .4rem 0;
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+
+
+
+    div.groups {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    /****List Styling*****/
+
+
+    /****Grid Styling*****/
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.groups.grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
+
+
+
