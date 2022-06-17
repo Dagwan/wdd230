@@ -236,7 +236,7 @@
     }
 
 
-
+/***********************DIRECTORY PAGE STYLE**********************/
 
     div.groups {
         display: grid;
@@ -252,7 +252,7 @@
     }
 
 
-    /****List Styling*****/
+    /***********************LIST STYLING**********************/
 
     div.list h2 {
         padding: 10px;
@@ -272,7 +272,7 @@
 
 
 
-    /****Grid Styling*****/
+    /***********************GRID STYLING**********************/
     .grid {
         grid-template-columns: 1fr 1fr;
     }

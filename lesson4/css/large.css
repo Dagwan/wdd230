@@ -89,9 +89,6 @@
       }
     
 
-    
-
-
 /***********************JOIN PAGE**********************/
 
 
@@ -100,17 +97,15 @@
     }
 
 
-
+/***********************DIRECTORY STYLE**********************/
 
     div.groups {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
 
-    /****List Styling*****/
 
-
-    /****Grid Styling*****/
+    /***********************GRID STYLING**********************/
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
