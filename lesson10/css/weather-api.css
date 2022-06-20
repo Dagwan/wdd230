@@ -1,7 +1,14 @@
 body {
+    max-width: 100%;
     font-family: 'Work san', sans-serif;
     font-size: 16px;
-    text-align: center;
+    align-content: center;
+    height: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: auto;
+    
+    
 }
 
 h1, h2 {
@@ -24,7 +31,7 @@ p {
     color: #03045e;
 }
 
-img {
+weather-icon {
     width: 80%;
     margin: 10px auto 5px;
     display: block;
