@@ -3,13 +3,15 @@
     --secondary-color: rgb(241, 52, 52);
     --accent-color: #1846d1;
 
-    --heading-font: ;font-family: "Work Sans", sans-serif;
+    --heading-font: ;font-family: "loto", sans-serif;
     --paragraph-font: font-family: "Work Sans", sans-serif;
     
 }
 body {
     max-width: 100%;
-    margin: 0 auto;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    
 }
 header {
     display: grid;
