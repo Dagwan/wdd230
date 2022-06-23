@@ -47,9 +47,10 @@ section {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 7px;
 }
+
 
 footer {
     font-family: 'Work san', sans-serif;
