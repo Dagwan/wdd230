@@ -416,7 +416,7 @@ footer a {
    
 }
 
-#logo {
+#logo1 {
    
     border: 6px solid #f77f00;
 }
@@ -857,6 +857,7 @@ div.groups.list {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 7px;
 }
 
 .grid div {

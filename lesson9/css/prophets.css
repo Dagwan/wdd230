@@ -60,17 +60,3 @@ footer {
     background-color: #f77f00;
   
 }
-
-
-
-@media only screen and (min-width: 600px) {
-    .cards{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media only screen and (min-width: 960px) {
-    .cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
