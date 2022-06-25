@@ -216,9 +216,10 @@ main {
 
 .event {
     position: absolute;
+    width: 100%;
     top: 20px;   
     padding: 5px 15px 5px 30px;
-    background-color: #03045e;
+    background-color: #f77f00;
 }
 
 .box2 {
@@ -234,6 +235,7 @@ main {
 
 .weather {
     position: relative;
+    width: 100%;
     top: auto;
     left: 0px;
     padding: 5px 5px 5px 5px;
@@ -297,6 +299,7 @@ figcaption {
 }
 
 .news {
+    width: 100%;
     position: absolute;
     top: 20px;
     left: 0px;
@@ -337,7 +340,7 @@ figcaption {
 
 .deliverable {
     position: absolute;
-    width: 275px;
+    width: 100%;
     top: 20px;
     left: -1px;
     margin-left: 10px;
@@ -350,12 +353,13 @@ figcaption {
 }
 
 .split1 p {
-    color: #32292f;
+    color: black;
     padding: 5px 0px;
 }
 
 .cool {
     position: absolute;
+    width: 100%;
     top: 20px;
     left: 0px;
     padding: 5px 15px 5px 30px;
@@ -374,6 +378,7 @@ figcaption {
 
 .coffee {
     position: absolute;
+    width: 100%;
     top: 20px;
     margin-left: 10px;
     left: 0px;
