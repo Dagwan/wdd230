@@ -28,7 +28,7 @@ img {
 
 header {
     display: grid;
-    grid-template-columns: 75px 1fr 60px 40px;
+    grid-template-columns: 1fr 1fr 60px 40px;
     grid-template-rows: 1fr 20px;
     gap: 10px;
     align-items: center;
@@ -47,10 +47,12 @@ header p {
     grid-column: 1/5;
     text-align: center;
     background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
-    color: #32292F;
-    border: 2px solid #32292f;
-    padding: 5px 0px;
-    box-shadow: 3px 3px 10px rgb(54, 54, 54);
+    color: #03045e;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid #03045e;
+    padding: 10px 0px;
+    box-shadow: 3px 3px 10px #f77f00;
     
 }
 
@@ -59,9 +61,8 @@ h1 {
     line-height: 1;
     padding: 5px;
     font-family: 'Loto', sans-serif;
-    text-shadow: 0 3px 3px #32292F;
+    
 }
-
 
 h2 {
     color: #e5f0f0;
@@ -69,7 +70,6 @@ h2 {
     font-family: 'Loto', sans-serif;
     
 }
-
 
 #cc {
     font-size: 18px;
@@ -128,7 +128,6 @@ nav ul {
 nav ul.open {
     display: block;}
 
-
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
 
@@ -141,11 +140,8 @@ nav ul.open {
 }
 
 main {
-    background-color: #e5f0f0;
-    
-  
+    background-color: #e5f0f0;  
 }
-
 
 #banner {
     display: none;
@@ -164,9 +160,7 @@ main {
 
 #close {
     background-color: #f77f00;
-    padding: 3px;
-
-   
+    padding: 3px;  
     
 }
 
@@ -220,7 +214,6 @@ main {
     color: white;
 }
 
-
 .event {
     position: absolute;
     top: 20px;   
@@ -229,67 +222,88 @@ main {
 }
 
 .box2 {
-    position: relative;
-    
-}
-
-.box2 img {    
-    height: 100%;
+    position: relative;   
 }
 
 .box2 p {
    position: relative; 
    top: 80px;  
-   bottom: 20px;
    left: 10px;
    right: 10px;
-   padding: 5px  10px  10px 10px;
-  
 }
 
-
 .weather {
-    position: absolute;
-    color: #f77f00;
-    top: 20px;
+    position: relative;
+    top: auto;
     left: 0px;
-    text-align: center;
-    padding: 5px 15px 5px 30px;
-    
+    padding: 5px 5px 5px 5px;
+    background-color: #03045e;
 }
 
 .box3 {
     position: relative;
-
-}
-
-.box3 img {
-    height: 100%;
 }
 
 .box3 .temp-box {
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-    right: 10px;
-    padding: 5px 30px 10px 30px;
     border: none;
     text-align: center;
+    color: #03045e;
+    height: 70%;
+    font-family: 'Works Sans', sans-serif;
 }
 
-.box3 .temp-box img {
-    padding: 10px;
+#weathericon {
+    border: none;
+    box-shadow: none;
+    color: #03045e;
+    font-weight: bold;
+    font-family: 'Works Sans', sans-serif;
 }
 
+figcaption {
+    text-transform: capitalize;
+    margin-top: -20px;
+    font-weight: bold;
+    font-family: 'Works Sans', sans-serif;
+}
+
+#weathergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    box-shadow: none;
+    color: #f77f00;
+    font-weight: bold;
+    font-family: 'Works Sans', sans-serif;
+}
+
+#weather1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f77f00;
+    grid-column: 1/1;
+    font-family: 'Works Sans', sans-serif;
+}
+
+#weather2, #weather3 {
+    grid-column: 1/3;
+    color: #03045e;
+    font-family: 'Works Sans', sans-serif;
+}
+
+#weather4 {
+    color: #03045e;
+    font-family: 'Works Sans', sans-serif;
+}
 
 .news {
     position: absolute;
     top: 20px;
     left: 0px;
+    margin-left: 10px;
     padding: 5px 15px 5px 30px;
     background-color: #03045e;
 } 
-
 
 .box4 {
     position: relative;
@@ -321,12 +335,12 @@ main {
 }
 
 
-.boat {
+.deliverable {
     position: absolute;
     top: 20px;
     left: -1px;
+    margin-left: 10px;
     padding: 5px 15px 5px 30px;
-
     text-align: center;
     background-color: #03045e;
 }
@@ -339,13 +353,14 @@ main {
     padding: 5px 0px;
 }
 
-.bed {
+.cool {
     position: absolute;
     top: 20px;
     left: 0px;
     padding: 5px 15px 5px 30px;
     background-color: #f77f00;
     font-size: 25px;
+    margin-left: 10px;
 }
 
 .split2 {
@@ -359,6 +374,7 @@ main {
 .coffee {
     position: absolute;
     top: 20px;
+    margin-left: 10px;
     left: 0px;
     padding: 5px 15px 5px 30px;
     background-color: #03045e;
@@ -414,11 +430,6 @@ footer a {
     text-decoration: none;
     color: #f77f00;
    
-}
-
-#logo1 {
-   
-    border: 6px solid #f77f00;
 }
 
 footer .urlsite {
@@ -558,7 +569,6 @@ footer #lastline {
     background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
 }
 
-
 .discover7 .border {
     margin-bottom: 10px;
 }
@@ -679,17 +689,27 @@ form input.submitBtn {
     border: 1px solid #f77f00;
     background-color: #03045e;
     color: white;
+    font-size: 16px;
     border-radius: 1rem;
     padding: 10px 40px;
     margin: 10px;
     width: 96%;
     max-width: 45rem;
-    font-size: 100%;
     box-shadow: 3px 3px 10px rgb(23, 3, 134);
     cursor: pointer;
 }
 
+.submitBtn {
+    padding: 20px;
+    margin: 20px;
+}
 
+.submitBtn:hover {
+   background-color: #f77f00;
+   color: white;
+   padding: 15px;
+   margin: 15px;
+}
 form label.top input:required {
     border-left: rgb(201, 93, 93) solid 6px;
 }
@@ -865,4 +885,63 @@ div.groups.list {
     align-items: center;
     margin: 10px;
     padding: 10px 20px 20px 20px;
+}
+
+/*.................................CONTACT PAGE.............................*/
+
+.mem-info {
+    margin: 0 auto;
+    max-width: 40rem;
+  }
+
+.contact-grid {
+    display: grid;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    color: #03045e;
+    
+}
+
+.contact-box, .contact-img {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-grid h2 {
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+}
+
+#pg-title {
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    color: #f77f00;
+}
+
+.contact-img {
+    float: left;
+    position: absolute;
+}
+
+.information{
+    color: #f77f00;
+}
+
+.send {
+    padding: 10px;
+    margin: 20px 20px 0px 20px;    
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: #03045e;
+    border-radius: 10px;
+    border-bottom: 10px solid #f77f00;
+    border: 5px solid #03045e
+}
+
+.send:hover {
+    background-color: #f77f00;
+    color: #f2f2f2;
 }

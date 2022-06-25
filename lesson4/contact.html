@@ -42,11 +42,11 @@
             <button id="hamburgerBtn"><span>&#9776;</span>
                 <span>X</span></button>
             <ul id="primaryNav">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <p>
@@ -58,9 +58,41 @@
     </aside>
     
     <main>
-<picture>
-    <img src="images/contact.jpg" alt="contact-page">
-</picture>
+        <div id="pg-title">
+            <h1 class="information">Contact Information</h1><hr><hr>
+        </div>
+        <h2 class="contact-form">Chamber Contact Form</h2>
+        <form class="mem-info" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+               
+                <br />
+                <p>A Member of Dan Community Chamber?</p>
+                <label><input type="checkbox" name="member" value="Yes" />Yes</label><br />
+                <label><input type="checkbox" name="non-member" value="No" />No</label><br />
+                <label class="top">
+                    Full Name*<input type="text" name="fullname" required />
+                </label>
+                <label class="top">
+                    Email*<input type="email" name="email" required placeholder="someone@gmail.com"/>
+                </label>
+                <label class="top">
+                    Cell Phone Number<input type="tel" name="cell" placeholder="1234567890"/>
+                </label>
+                <label class="top">
+                    Company<input type="text" name="company" />
+                </label>
+                <label class="top">Business Address<input type="text" name="address" /></label>
+                    <label class="top" for="content">Comments/Questions</label>
+                    <textarea name="textarea" id="content"></textarea>
+
+                    <button class="send" type="submit" value="submit">Send Question or Comment</button>
+            </fieldset>
+            <picture>
+                <img src="images/contact.jpg" alt="contact-page">
+            </picture>
+        </form>
+
     </main>
 
    
