@@ -5,7 +5,7 @@ const windspeed = document.querySelector("#windspeed");
 const windchill = document.querySelector("#windchill");
 
 const url =
-  "//api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=fa6b055b74f3706d26458f658758da4b";
+  "//api.openweathermap.org/data/2.5/weather?q=Lehi&units=imperial&appid=fa6b055b74f3706d26458f658758da4b";
 fetch(url)
   .then((response) => response.json())
   .then((data) => {

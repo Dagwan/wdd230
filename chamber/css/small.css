@@ -2,17 +2,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    align-content: center;
-    
+    box-sizing: border-box;    
 }
 
 body {
-    align-content: center;
-    height: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin: auto;
     max-width: 100%;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
@@ -28,7 +21,7 @@ img {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 60px 40px;
+    grid-template-columns: 75px 1fr 60px 40px;
     grid-template-rows: 1fr 20px;
     gap: 10px;
     align-items: center;
@@ -220,6 +213,10 @@ main {
     top: 20px;   
     padding: 5px 15px 5px 30px;
     background-color: #f77f00;
+}
+
+.even, p {
+    bottom: 20px;
 }
 
 .box2 {
@@ -894,6 +891,32 @@ div.groups.list {
 }
 
 /*.................................CONTACT PAGE.............................*/
+p strong {
+    color: #f77f00;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-grid {
+    display: grid;
+    margin: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 3px 10px #03045e;
+}
+
+.contact-grid h2 {
+    font-family: 'Lato', sans-serif;
+    padding: 5px 20px 10px 30px;
+    margin: 10px 50px 20px -22px;
+    background-color: #03045e;
+}
+
+#pg-title {
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+}
+
 
 .mem-info {
     margin: 0 auto;
@@ -915,6 +938,7 @@ div.groups.list {
 }
 
 .contact-grid h2 {
+    font-family: 'Lato', sans-serif;
     padding: 5px 20px 10px 30px;
     margin: 10px 50px 20px -22px;
 }
