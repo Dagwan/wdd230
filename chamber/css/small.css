@@ -44,7 +44,7 @@ header div {
 header p {
     grid-column: 1/5;
     text-align: center;
-    background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
+    background: linear-gradient(0.25turn, #03045e, #faf2d6, #ffffff, #faf2d6, #03045e);
     color: #03045e;
     font-weight: bolder;
     font-size: 20px;
@@ -120,12 +120,15 @@ nav ul li a {
     font-size: 16px;
     font-family: 'Loto', sans-serif;
     color: #03045e;
-    background-color: #b1d3d3;
+    background-color: white;
     border-top: 1px solid rgb(18, 8, 160);
 }
 
 nav ul li a:hover {
-    background: linear-gradient(0.25turn, #f77f00, #faf2d6, #ffffff, #faf2d6, #f77f00);
+    background: #03045e;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 nav ul { 
@@ -164,7 +167,6 @@ nav ul.open {
     
 }
 
-/* Mobile Layout (Grid) */
 .containers {
     display: grid;
     grid-template-columns: 1fr;
@@ -502,7 +504,7 @@ footer #lastline {
 .discover2 h2 {
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px -22px;
-    background-color: #03045e;    
+    background-color: #f77f00;    
 }
 
 
@@ -523,7 +525,7 @@ footer #lastline {
 .discover5 h2 {
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px -22px;
-    background-color: #f77f00;   
+    background-color: #03045e;   
 }
 
 
