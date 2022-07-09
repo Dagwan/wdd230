@@ -1,4 +1,4 @@
-const requestURL = 'https://dagwan.github.io/wdd230/lesson4/json/data.json';
+const requestURL = 'https://dagwan.github.io/wdd230/chamber/json/data.json';
 
 
 fetch(requestURL)
