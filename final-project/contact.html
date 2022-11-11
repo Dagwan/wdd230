@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <meta name="description" content="Temple Inn and Suites" />
+    <meta
+      name="keywords"
+      content="Hotel, VIP, Suites, and Book A Room,Free WiFi, swimming pool, Hot piza etc"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temple Inn & Suites</title>
+    <link rel="stylesheet"  href="styles/main.css" />
+    <link rel="stylesheet"  href="styles/small.css" />
+    <link rel="stylesheet"  href="styles/medium.css" />
+    <link rel="stylesheet"  href="styles/large.css" />
+    <link rel="stylesheet"  href="styles/normalize.css" />
+  </head>
+
+<body>
+    <div class="stickIt">
+        <!-- Header -->
+        <header>
+            <div class="headerLeft">
+                <a href="index.html"><img id="siteLogo" src="images/logo.png" alt="Temple Inn and Suites"></a>
+            </div>
+            <div class="headerRight">
+                <h3>Temple Inn and Suites</h3>
+              </div>
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+
+            <ul id="primaryNav" class="navigation hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="containerContact">
+        <h1 class="pageTitle">Contact Us</h1>
+
+        <div id="contactHeader">
+            <h3>Have questions, concerns, or suggestions?</h3>
+            <p>Call us, or send us your information and we will be sure to respond promptly!</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="formField">
+
+            <div class="contact-form">
+
+                <form action="#" method="post">
+                    <div class="input-field">
+
+                        
+                        <input id="name" type="text" class="input" aria-label="name" placeholder="Name" required>
+
+                        <input id="email" type="email" class="input" aria-label="email" placeholder="Email Address" required>
+
+                        <input type="tel" id="phone" class="input" aria-label="phone" placeholder="Phone">
+
+                        <select name="subject" id="messageSubject" aria-label="messageSubject" class="subjArea">
+                            <option class="subjArea" disabled selected value>Subject - Please choose</option>
+                            <option class="subjOpt" value="question">I have a question</option>
+                            <option class="subjOpt" value="suggestion">I have a suggestion</option>
+                            <option class="subjOpt" value="reservation">I want to make a reservation</option>
+                            <option class="subjOpt" value="concern">I have some concerns</option>
+                            <option class="subjOpt" value="cancellation">I need to cancel my reservation</option>
+                            <option class="subjOpt" value="other">Other...</option>
+                        </select>
+
+                        <div class="message">
+                            <textarea id="message" aria-label="message" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="btn">Contact Temple Inn and Suites</div>
+                    </div>
+                </form>
+
+            </div>
+
+            <!-- Business Info -->
+            <div class="bznssInfo">
+                <img id="contactLogo" src="images/logo.png" alt="Temple Inn Logo">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+          <div id="prefootMid">
+            <div id="map">
+              <iframe
+                title="hotelMainMap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                style="border: 0;"
+                allowfullscreen
+              ></iframe>
+            </div>
+  
+            <div id="bottomfooterinfo">
+              <h3>Temple Inn & Suites</h3>
+  
+              <address>
+                <div class="footerBzInfo">
+                  <div>
+                    <img src="images/location.png" alt="location icon" />
+                  </div>
+                  <div>
+                    <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                  </div>
+                </div>
+              </address>
+  
+              <div class="footerBzInfo">
+                <img src="images/phone.png" alt="phone icon" /><p>234(0)-810-1756-091</p>
+              </div>
+  
+              <div class="footerBzInfo">
+                <img src="images/mail.png" alt="mail icon" />
+                 <p> dan2107@byui.edu <br />dagwanpan@gmail.com</p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div id="midfootMid">
+            <a href="email"
+            >dan21017@byui.edu <br />
+            dagwanpan@gmail.com <br>
+            www.dantempleinn.com</a
+          >
+            <div class="iconLinks">
+              <a href="https://www.facebook.com" target="blank"
+              ><img src="images/fb.png" alt="facebook icon"
+            /></a>
+            <a href="https://twitter.com/login" target="blank"
+              ><img src="images/twitter.png" alt="twitter icon"
+            /></a>
+            <a href="https://linkedin.com" target="blank"
+            ><img src="images/linkIn.jpg" alt="Linkedin logo"
+          /></a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="bottomFooter">
+          <div>
+            <p><br><hr>
+              &copy;2022 Temple Inn & Suites | Dagwan Pan'an Danladi   ||=::=|| <span id="currentDate"></span>
+              <br /><strong>BRIGHAM YOUNG UNIVERSITY IDAHO</strong><hr><br>
+            
+          </div>
+        </div>
+      </footer>
+    
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- My Scripts -->
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

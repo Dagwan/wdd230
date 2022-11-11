@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <meta name="description" content="Temple Inn and Suites" />
+    <meta
+      name="keywords"
+      content="Hotel, VIP, Suites, and Book A Room,Free WiFi, swimming pool, Hot piza etc"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temple Inn and Suites</title>
+    <link rel="stylesheet"  href="styles/main.css" />
+    <link rel="stylesheet"  href="styles/small.css" />
+    <link rel="stylesheet"  href="styles/medium.css" />
+    <link rel="stylesheet"  href="styles/large.css" />
+    <link rel="stylesheet"  href="styles/normalize.css" />
+  </head>
+
+<body>
+    <div class="stickIt">
+        
+        <header>
+
+            <div class="headerLeft">
+                <a href="index.html"><img id="siteLogo" src="images/logo.png" alt="Temple Inn and Suites"></a>
+            </div>
+
+            <div class="headerRight">
+                <h3>Temple Inn & Suites</h3>
+              </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+
+            <ul id="primaryNav" class="navigation hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="endNav" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class="pageTitle">Temples</h1>
+    
+    <!-- Aba Nigeria Temple -->
+    <div class="templeInfoContainer templeTop">
+
+        <div class="indTempImg">
+            <div>
+                <h2 class="titleWeather" id="temple3Title">Aba Nigeria Temple</h2>
+                <img src="images/aba_nigeria_temple_lds.jpg" alt="Aba Nigeria Temple">
+            </div>
+            <section class="weatherSumBox">
+                <div class="weatherDetails">
+                    <h3>Weather Summary</h3>
+                    <hr>
+                    <div class="wImageDiv">
+                        <div id="wImageAba"></div>
+
+                    </div>
+                    <div class="weatherInfoLine">
+                        <p class="label">Currently:</p>
+                        <p class="value" id="imgDescriptionAba"></p>
+                    </div>
+                    <div class="weatherInfoLine">
+                        <p class="label">Temperature: </p>
+                        <p class="value" id="curTempAba"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Humidity:</p>
+                        <p class="value" id="humidityAba"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Precipitation:</p>
+                        <p class="value" id="precipitationAba"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind Speed:</p>
+                        <p class="value" id="windAba"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind chill:</p>
+                        <p class="value" id="windChillAba"></p>
+                    </div>
+
+                </div>
+
+
+            </section>
+        </div>
+
+
+        <div class="templeTextContainer">
+            <h4>Click on options below for more details</h4>
+            <div class="mainTempleInfo">
+                <h3 class="clickSlideToggle" id="mainInfoClickAba">Contact Info</h3>
+                <hr>
+                <div id="mainInfoSlideAba">
+                    <div class="templeInfoContainerBox">
+                        <h3>Address</h3>
+                        <p> 72-80 Okpu-Umuobo Road Aba, Abia State, Nigeria</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Telephone</h3>
+                        <p>(234) 80-3903-4810</p>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="servicesClickAba">Services and Schedules</h3>
+                <hr>
+                <div id="servicesSlideAba">
+                    <div class="templeInfoContainerBox">
+                        <h3>Services</h3>
+                        <h3>Services</h3>
+                        <p>Clothing rental available</p>
+                        <p>Cafeteria available</p>
+                        <p>No patron housing available</p>
+                        <p>Distribution center nearby</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Ordinance Schedule</h3>
+                        <p>For schedule information, please call the telephone number.</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Session Schedule</h3>
+                        <p>For schedule information, please call the telephone number.</p>
+                    </div>
+
+                </div>
+
+                <h3 class="clickSlideToggle" id="closuresClickAba">Temple Closures</h3>
+                <hr>
+                <div id="closuresSlideAba">
+                    <div class="closures templeInfoContainerBox">
+                        <h3>Closures</h3>
+                        <div id="AbaClosures"></div>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="summaryClickAba">Temple History</h3>
+                <hr>
+                <div id="summarySlideAba">
+                    <div class="templeInfoContainerBox">
+                        <h3>History</h3>
+                        <p>2 April 2000 - Announced</p>
+                        <p>23 February 2002 - Groundbreaking</p>
+                        <p>7 August 2005 - Dedication</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Summary</h3>
+                        <p>Ordinances for family names must be done in proper sequence—baptism, 
+                            confirmation, Melchizedek Priesthood ordination (males), 
+                            initiatory, endowment, and then sealing. Please allow 
+                            sufficient time to perform all the ordinances you wish
+                             to complete during your visit. 
+                             </p>
+                             <p>For additional help and
+                              information, please call the temple.</p>
+                        <p>Reference: https://www.churchofjesuschrist.org/<br>temples/details/aba-nigeria-temple?lang=eng</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Billings Montana Temple -->
+    <div class="templeInfoContainer">
+
+        <div class="indTempImg">
+            <div>
+                <h2 class="titleWeather" id="temple1Title">Billings Montana Temple</h2>
+                <img src="images/billings_montana_temple.jpg" alt="Billings Montana Temple">
+            </div>
+
+            <section class="weatherSumBox">
+                <div class="weatherDetails">
+                    <h3>Weather Summary</h3>
+                    <hr>
+
+                    <div class="wImageDiv">
+                        <div id="wImageBillings"></div>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Currently:</p>
+                        <p class="value" id="imgDescriptionBillings"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Temperature: </p>
+                        <p class="value" id="curTempBillings"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Humidity:</p>
+                        <p class="value" id="humidityBillings"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Precipitation:</p>
+                        <p class="value" id="precipitationBillings"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind Speed:</p>
+                        <p class="value" id="windBillings"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind chill:</p>
+                        <p class="value" id="windChillBillings"></p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <div class="templeTextContainer">
+            <h4>Click on options below for more details</h4>
+            <div class="mainTempleInfo">
+                <h3 class="clickSlideToggle" id="mainInfoClickBillings">Contact Info</h3>
+                <hr>
+                <div id="mainInfoSlideBillings">
+                    <div class="templeInfoContainerBox">
+                        <h3>Address</h3>
+                        <p>3100 Rim Point Dr Billings MT 59106-1386
+                            United States</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Telephone</h3>
+                        <p>(1) 406-655-0607</p>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="servicesClickBillings">Services and Schedules</h3>
+                <hr>
+                <div id="servicesSlideBillings">
+                    <div class="templeInfoContainerBox">
+                        <h3>Services</h3>
+                        <p>No clothing rental available</p>
+                        <p>No cafeteria available</p>
+                        <p>Patron housing available</p>
+                        <p>Distribution center nearby</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Ordinance Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Session Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                </div>
+
+                <h3 class="clickSlideToggle" id="closuresClickBillings">Temple Closures</h3>
+                <hr>
+                <div id="closuresSlideBillings">
+                    <div class="closures templeInfoContainerBox">
+                        <h3>Closures</h3>
+                        <div id="BillingsClosures"></div>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="summaryClickBillings">Temple History</h3>
+                <hr>
+                <div id="summarySlideBillings">
+                    <div class="templeInfoContainerBox">
+                        <h3>History</h3>
+                        <p>30 August 1996 - Announced</p>
+                        <p>28 March 1998 - Groundbreaking</p>
+                        <p>20 November 1999 - Dedicated</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Summary</h3>
+                        <p>Ordinances for family names must be done in proper 
+                            sequence—baptism, confirmation, Melchizedek Priesthood 
+                            ordination (males), initiatory, endowment, and then sealing. 
+                            Please allow sufficient time to perform all the ordinances 
+                            you wish to complete during your visit. 
+                            </p>
+                            <p>For additional help and information, please call the temple.</p>
+                        <p>Reference:
+                            https://www.churchofjesuschrist.org/<br>temples/ details/billings-montana-temple?lang=eng</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Johannesburg South Africa Temple -->
+    <div class="templeInfoContainer">
+
+        <div class="indTempImg">
+            <div>
+                <h2 class="titleWeather" id="temple2Title">Johannesburg South Africa Temple</h2>
+                <img src="images/johannesburg_south_africa_temple_lds_opt.jpg" alt="Johannesburg South Africa Temple">
+            </div>
+
+            <section class="weatherSumBox">
+                <div class="weatherDetails">
+                    <h3>Weather Summary</h3>
+                    <hr>
+                    <div class="wImageDiv">
+                        <div id="wImageJohannesburg"></div>
+
+                    </div>
+                    <div class="weatherInfoLine">
+                        <p class="label">Currently:</p>
+                        <p class="value" id="imgDescriptionJohannesburg"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Temperature: </p>
+                        <p class="value" id="curTempJohannesburg"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Humidity:</p>
+                        <p class="value" id="humidityJohannesburg"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Precipitation:</p>
+                        <p class="value" id="precipitationJohannesburg"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind Speed:</p>
+                        <p class="value" id="windJohannesburg"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind chill:</p>
+                        <p class="value" id="windChillJohannesburg"></p>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+        </div>
+
+        <div class="templeTextContainer">
+            <h4>Click on any of the options below for more information:</h4>
+            <div class="mainTempleInfo">
+                <h3 class="clickSlideToggle" id="mainInfoClickJohannesburg">Contact Info</h3>
+                <hr>
+                <div id="mainInfoSlideJohannesburg">
+                    <div class="templeInfoContainerBox">
+                        <h3>Address</h3>
+                        <p>7 Jubilee Rd Parktown Johannesburg, 2193, South Africa</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Telephone</h3>
+                        <p>(27) 11-645-1540</p>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="servicesClickJohannesburg">Services and Schedules</h3>
+                <hr>
+                <div id="servicesSlideJohannesburg">
+                    <div class="templeInfoContainerBox">
+                        <h3>Services</h3>
+                        <p>Clothing rental available</p>
+                        <p>No cafeteria available</p>
+                        <p>Patron housing available</p>
+                        <p>Distribution center nearby</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Ordinance Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Session Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                </div>
+
+                <h3 class="clickSlideToggle" id="closuresClickJohannesburg">Temple Closures</h3>
+                <hr>
+                <div id="closuresSlideJohannesburg">
+                    <div class="closures templeInfoContainerBox">
+                        <h3>Closures</h3>
+                        <div id="JohannesburgClosures"></div>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="summaryClickJohannesburg">Temple History</h3>
+                <hr>
+                <div id="summarySlideJohannesburg">
+                    <div class="templeInfoContainerBox">
+                        <h3>History</h3>
+                        <p>April 1, 1981 - Announced</p>
+                        <p>Novemeber 27, 1982 - Groundbreaking</p>
+                        <p>August 24, 1985 - Dedicated</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Summary</h3>
+                        <p>Ordinances for family names must be done in proper 
+                            sequence—baptism, confirmation, Melchizedek Priesthood 
+                            ordination (males), initiatory, endowment, and then sealing. 
+                            Please allow sufficient time to perform all the ordinances 
+                            you wish to complete during your visit. 
+                            </p>
+                            <p>For additional help and information, please call the temple.</p>
+                        <p>Reference - https://www.mormonnewsroom.org/<br>article/johannesburg-south-africa-temple</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Brigham City Utah Temple -->
+    <div class="templeInfoContainer templeBottom">
+
+        <div class="indTempImg">
+            <div>
+                <h2 class="titleWeather" id="temple4Title">Brigham City Utah Temple</h2>
+                <img src="images/brigham_city_utah_temple_dawn.jpg" alt="Brigham City Utah Temple">
+            </div>
+            <section class="weatherSumBox">
+                <div class="weatherDetails">
+                    <h3>Weather Summary</h3>
+                    <hr>
+                    <div class="wImageDiv">
+                        <div id="wImageBrigham"></div>
+
+                    </div>
+                    <div class="weatherInfoLine">
+                        <p class="label">Currently:</p>
+                        <p class="value" id="imgDescriptionBrigham"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Temperature: </p>
+                        <p class="value" id="curTempBrigham"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Humidity:</p>
+                        <p class="value" id="humidityBrigham"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Precipitation:</p>
+                        <p class="value" id="precipitationBrigham"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind Speed:</p>
+                        <p class="value" id="windBrigham"></p>
+                    </div>
+
+                    <div class="weatherInfoLine">
+                        <p class="label">Wind chill:</p>
+                        <p class="value" id="windChillBrigham"></p>
+                    </div>
+
+                </div>
+
+
+            </section>
+        </div>
+
+        <div class="templeTextContainer">
+            <h4>Click on options below for more details</h4>
+            <div class="mainTempleInfo">
+                <h3 class="clickSlideToggle" id="mainInfoClickBrigham">Contact Info</h3>
+                <hr>
+                <div id="mainInfoSlideBrigham">
+                    <div class="templeInfoContainerBox">
+                        <h3>Address</h3>
+                        <p>250 S Main St Brigham City UT 84302-2560 United States</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Telephone</h3>
+                        <p>(1) 435-695-2170</p>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="servicesClickBrigham">Services and Schedules</h3>
+                <hr>
+                <div id="servicesSlideBrigham">
+                    <div class="templeInfoContainerBox">
+                        <h3>Services</h3>
+                        <p>Clothing rental available</p>
+                        <p>Cafeteria available</p>
+                        <p>No patron housing available</p>
+                        <p>Distribution center nearby</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Ordinance Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                    <div class="templeInfoContainerBox">
+                        <h3>Session Schedule</h3>
+                        <p>For schedule information, please call the temple.</p>
+                    </div>
+
+                </div>
+
+                <h3 class="clickSlideToggle" id="closuresClickBrigham">Temple Closures</h3>
+                <hr>
+                <div id="closuresSlideBrigham">
+                    <div class="closures templeInfoContainerBox">
+                        <h3>Closures</h3>
+                        <div id="BrighamClosures"></div>
+                    </div>
+                </div>
+
+                <h3 class="clickSlideToggle" id="summaryClickBrigham">Temple History</h3>
+                <hr>
+                <div id="summarySlideBrigham">
+                    <div class="templeInfoContainerBox">
+                        <h3>History</h3>
+                        <p>3 October 2009 - Announced</p>
+                        <p>1 July 2010 - Groundbreaking</p>
+                        <p>23 September 2012 - Dedicated</p>
+                    </div>
+                    <div class="templeInfoContainerBox">
+                        <h3>Summary</h3>
+                        <p>Ordinances for family names must be done in proper 
+                            sequence—baptism, confirmation, Melchizedek Priesthood 
+                            ordination (males), initiatory, endowment, and then sealing. 
+                            Please allow sufficient time to perform all the ordinances 
+                            you wish to complete during your visit. 
+                            </p>
+                            <p>For additional help and information, please call the temple.</p>
+                        <p>reference - https://www.churchofjesuschrist.org/<br>temples/details/brigham-city-utah-temple?lang=eng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="smallViewBtoTop">Back To Top</button>
+
+    <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+          <div id="prefootMid">
+            <div id="map">
+              <iframe
+                title="hotelMainMap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                style="border: 0;"
+                allowfullscreen
+              ></iframe>
+            </div>
+  
+            <div id="bottomfooterinfo">
+              <h3>Temple Inn & Suites</h3>
+  
+              <address>
+                <div class="footerBzInfo">
+                  <div>
+                    <img src="images/location.png" alt="location icon" />
+                  </div>
+                  <div>
+                    <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                  </div>
+                </div>
+              </address>
+  
+              <div class="footerBzInfo">
+                <img src="images/phone.png" alt="phone icon" /><p>234(0)-810-1756-091</p>
+              </div>
+  
+              <div class="footerBzInfo">
+                <img src="images/mail.png" alt="mail icon" />
+                 <p> dan2107@byui.edu <br />dagwanpan@gmail.com</p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div id="midfootMid">
+            <a href="email"
+            >dan21017@byui.edu <br />
+            dagwanpan@gmail.com <br>
+            www.dantempleinn.com</a
+          >
+            <div class="iconLinks">
+                <a href="https://www.facebook.com" target="blank"
+                ><img src="images/fb.png" alt="facebook icon"
+              /></a>
+              <a href="https://twitter.com/login" target="blank"
+                ><img src="images/twitter.png" alt="twitter icon"
+              /></a>
+              <a href="https://linkedin.com" target="blank"
+              ><img src="images/linkIn.jpg" alt="Linkedin logo"
+            /></a>
+            </div>
+          </div>
+        </div>
+   
+        <div class="bottomFooter">
+          <div>
+            <p><br><hr>
+                &copy;2022 Temple Inn & Suites | Dagwan Pan'an Danladi   ||=::=|| <span id="currentDate"></span>
+                <br /><strong>BRIGHAM YOUNG UNIVERSITY IDAHO</strong><hr><br>
+       
+          </div>
+        </div>
+      </footer>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- My Scripts -->
+    <script src="scripts/slidetoggle.js"></script>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/getTempleData.js"></script>
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+
+
+</html>

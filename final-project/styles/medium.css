@@ -1,0 +1,317 @@
+@media only screen and (min-width: 415px) and (max-width: 1025px) {
+       /* Header */
+       header {
+        flex-flow: column;
+        justify-content: space-around;
+        margin-top: 2em;
+        background-color: aliceblue;
+        color: #03045e;
+        height: 230px;
+        align-items: center;
+        -webkit-box-shadow: 2px 8px 16px 2px #03045e;
+        -moz-box-shadow: 2px 8px 16px 2px #03045e;
+        box-shadow: 2px 8px 16px 2px #03045e;
+    }
+
+    .headerRight {
+        font-size: 1.8em;
+        
+    }
+
+    .stickIt {
+        position: relative;
+        top: 0;
+        z-index: 5;
+    }
+
+/* Navigation */
+    nav button { display: block;
+        top: 190px;
+    }
+    .navigation {
+        -webkit-box-shadow: 2px 8px 16px 2px #03045e;
+        -moz-box-shadow: 2px 8px 16px 2px #03045e;
+        box-shadow: 2px 8px 16px 2px #03045e;
+    }
+
+    nav ul {
+        flex-flow: column;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;    
+    }
+
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        border-top: 3px solid red;
+        color: #03045e;;
+    }
+
+    nav ul li.active a {
+        background-color: #5c8301;
+        color: aliceblue;
+        border-radius: 0 1em 1em 0; 
+    }
+
+    nav ul li.active a:hover {
+        background-color: #5c8301;
+        color: aliceblue;
+        border-radius: 0 1em 1em 0;
+        box-shadow: none; 
+    }
+
+    nav ul.hide {
+        display: none;
+    }
+
+    nav li a:hover {
+        background-color: #5c8301;
+        color: aliceblue;
+        box-shadow: 2px 0 16px 2px #03045e;
+    }
+    nav li a:active {
+        background-color: aliceblue;
+        border-radius: 1em 1em 0 0;
+        color: #03045e;
+    }
+    /* Page Title */
+    .pageTitle {
+        font-size: 2.5em;
+    }
+
+/* Footer */
+footer {
+    max-width:100%;
+}
+
+.footerBzInfo{
+    align-content: center;
+    align-items: center;
+    padding: 0.2em;
+}
+
+#prefootMid { 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.iconLinks {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+#midfootMid a {  
+    align-self: center;
+    padding: 5px;
+}
+
+#map iframe {
+    max-width: 370px;
+    height: 200px;
+}
+
+/* Hero img and book now btn */
+.heroContainer img {
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+}
+
+.heroContainer {
+    width: 100%;
+}
+
+.heroContainer a {
+    width: 100%;
+    padding: 0.3em 0;
+    font-size: 1.1em;
+}
+
+.heroContainer a:hover {
+    background-color: #03045e;
+    color: white;
+}
+
+.bookNowBtn {
+    display: block;
+    width: 100%;
+}
+.bookNowBtn:hover{
+    background-color: #5c8301;
+    color: aliceblue;
+}
+#homeContent {
+    width: 100%;
+}
+
+#mainWelcome {
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 3em 1em 0 1em;
+}
+
+/* Welcome description  */
+#mainWelcome > div:nth-child(1) {
+    padding: 0 1em;
+}
+
+#mainImgDiv {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    margin: 1em;
+}
+
+#mainImgDiv img{
+    align-content: center;
+}
+
+.homeMain {
+    flex-flow: column;
+}
+
+/* temple info */
+.templeInfoContainer {
+    flex-flow: row wrap;
+    max-width: 90%;
+    margin: 1em;
+    justify-content: center;
+    background-color: #03045e;
+    color: aliceblue;
+}
+
+/* amenities info */
+.amenitiesHome {
+    flex-flow: column;
+    max-width: 100%;
+    margin: 1em;
+    align-self: center;
+}
+
+
+/**************Temple Page***************/
+.templeTop {
+    margin-top: 3em;
+}
+
+.templeBottom {
+    margin-bottom: 3em;
+}
+
+.indTempImg, .indTempImg > div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Form Container */
+.containerReservation {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#reservationTitle {
+    width: 100%;
+    align-self: center;
+}
+
+.containerReservation > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.reservationFormWrapper {
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    width: 400px;
+}
+
+.reservationForm {
+    margin: 1em;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Form Content */
+#reservationInputTop > div > div {
+    margin: 1em;
+}
+
+#reservationInputTop {
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+#upperUpper, #lowerUpper {
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#upperUpper > div, #lowerUpper > div {
+    justify-content: space-evenly;
+    margin-right: 1.5em;
+}
+
+#upperUpper > div label, #lowerUpper > div label {
+    display: block;
+}
+
+.reservationForm .messageReservation {
+    flex-flow: column;
+    width: 85%;
+}
+
+.reservationForm .messageReservation textarea{
+    height: 200px;
+    width: 100%;
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border: 2px solid #03045e;
+    padding: 10px;
+    color: #03045e;
+}
+
+/**************Contact Page***************/
+.containerContact{
+    flex-direction: column;   
+}
+
+.formField{
+    flex-flow: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.contact-form{
+    width: 400px;
+    padding: 10px;
+}
+
+.input-field{
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-field input {
+    width: 350px;
+}
+
+.bznssInfo{
+    flex-flow: row wrap;
+    align-self: center;
+}
+
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <meta name="description" content="Temple Inn and Suites" />
+    <meta
+      name="keywords"
+      content="Hotel, VIP, Suites, and Book A Room,Free WiFi, swimming pool, Hot piza etc"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Temple Inn and Suites</title>
+    <link rel="stylesheet"  href="styles/main.css" />
+    <link rel="stylesheet"  href="styles/small.css" />
+    <link rel="stylesheet"  href="styles/medium.css" />
+    <link rel="stylesheet"  href="styles/large.css" />
+    <link rel="stylesheet"  href="styles/normalize.css" />
+  </head>
+
+  <body>
+    <div class="stickIt">
+      <header>
+        <div class="headerLeft">
+          <a href="index.html"
+            ><img
+              id="siteLogo"
+              src="images/logo.png"
+              alt="Temple Inn and Suites"
+          /></a>
+        </div>
+        <div class="headerRight">
+          <h3>Temple Inn & Suites</h3>
+        </div>
+      </header>
+      <!-- Navigation -->
+      <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="navigation hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a id="endNav" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="containerMain" id="homeContent">
+      <div class="heroContainer">
+        <picture>
+          <source media="(max-width: 415px)" srcset="images/homepic.jpg" />
+          <source media="(min-width: 416px)" srcset="images/homepic.jpg" />
+          <img
+            id="backgroundHeroImage"
+            src="images/homepic.jpg"
+            alt="Temple inn picture"
+          />
+        </picture>
+        <a href="reservation.html" class="bookNowBtn">Please click here for Booking</a>
+      </div>
+
+      <main>
+        <!-- Welcome Text -->
+        <div id="mainWelcome">
+          <div id="welcomeText">
+            <h1>Temple Inn & Suites</h1>
+            <p id="welcomeSubTitle">
+              Looking for an accommodation that suites your desire, we here for
+              <strong>YOU</strong> to give you the best ever.
+            </p>
+            <p>
+              We are <strong>Glad</strong> to have you here in our Temple. While
+              you prepare for your temple trips, we have many services and
+              accomodations to meet your needs and desire in just one search. If
+              you have any questions please give us a call at our official and
+              24/7 customer care hotline @ +234 (0) 810-1756-091 or
+              dan21017@byui.edu to clear you immediately. We are ready to help,
+              and we are looking forward to your stay with us. For your
+              reservation, please kind click the link below
+              <a href="reservation.html">here</a>.
+            </p>
+            <p>
+              Temple Inn & Suites caters to the Church member, temple workers,
+              patrons, and their families by providing specialized services and
+              accomodations that meet their various. These Suites accomodations
+              and services are available to all who are willing to abide by the
+              terms and conditions/policies outlined by the Executives of the
+              company.
+            </p>
+            <p>We appreciate you!</p>
+          </div>
+
+          <div id="mainImgDiv">
+            <picture>
+              <source media="(max-width: 415px)" srcset="images/lobby.jpg" />
+              <source media="(min-width: 416px)" srcset="images/lobby.jpg" />
+              <img
+                id="backgroundImage"
+                src="images/lobby.jpg"
+                alt="hotel lobby image"
+              />
+            </picture>
+
+          </div>
+        </div>
+
+        <div class="homeMain">
+          <!-- Temple Info -->
+          <div class="templeInfoContainer">
+            <div class="indTempImg">
+              <h2>Aba Nigeria Temple</h2>
+              <img
+                src="images/aba_nigeria_temple_lds.jpg"
+                alt="Aba Nigeria Temple"
+              />
+            </div>
+
+            <div class="templeTextContainer">
+              <div class="mainTempleInfoHome">
+                <h3>Address</h3>
+                <p>
+                  72-80 Okpu-Umuobo Road Aba, Abia State, Nigeria
+                </p>
+                <h3>Telephone</h3>
+                <p>(234) 80-3903-4810</p>
+                <h3>Services</h3>
+                <p>Clothing rental available</p>
+                <p>Cafeteria available</p>
+                <p>No patron housing available</p>
+                <p>Distribution center nearby</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Amenities Summary -->
+          <section class="amenitiesHome">
+            <h2>Free Amenities Include</h2>
+            <ul>
+              <li>Breakfast</li>
+              <li>Excersize/workout room</li>
+              <li>Indoor pool</li>
+              <li>WiFi high-speed internet access</li>
+              <li>Smart tvs</li>
+              <li>Parking</li>
+              <li>Family history consultation</li>
+              <li>Family ordinance card services</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div id="preFooter">
+        <div id="prefootMid">
+          <div id="map">
+            <iframe
+              title="hotelMainMap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+              style="border: 0;"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div id="bottomfooterinfo">
+            <h3>Temple Inn & Suites</h3>
+
+            <address>
+              <div class="footerBzInfo">
+                <div>
+                  <img src="images/location.png" alt="location icon" />
+                </div>
+                <div>
+                  <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                </div>
+              </div>
+            </address>
+
+            <div class="footerBzInfo">
+              <img src="images/phone.png" alt="phone icon" /><p>234(0)-810-1756-091</p>
+            </div>
+
+            <div class="footerBzInfo">
+              <img src="images/mail.png" alt="mail icon" />
+               <p> dan2107@byui.edu <br />dagwanpan@gmail.com</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div id="midfootMid">
+          <a href="email"
+            >dan21017@byui.edu <br />
+            dagwanpan@gmail.com <br>
+            www.dantempleinn.com</a
+          >
+          <div class="iconLinks">
+            <a href="https://www.facebook.com" target="blank"
+              ><img src="images/fb.png" alt="facebook icon"
+            /></a>
+            <a href="https://twitter.com/login" target="blank"
+              ><img src="images/twitter.png" alt="twitter icon"
+            /></a>
+            <a href="https://linkedin.com" target="blank"
+            ><img src="images/linkIn.jpg" alt="Linkedin logo"
+          /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottomFooter">
+        <div>
+         
+          <p><br><hr>
+            
+            &copy;2022 Temple Inn & Suites | Dagwan Pan'an Danladi   ||=::=|| <span id="currentDate"></span>
+            <br /><strong>BRIGHAM YOUNG UNIVERSITY IDAHO</strong><hr><br>
+            
+        </div>
+      </div>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>
